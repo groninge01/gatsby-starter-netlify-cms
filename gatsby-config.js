@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'VitaSupport',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Personal Trainer Winfred van Groningen uit Alkmaar brengt je naar de victorie door personal training, running en je gezond te laten leven.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
