@@ -1,11 +1,11 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
+import React from 'react';
+import Helmet from 'react-helmet';
+import { StaticQuery, graphql } from 'gatsby';
 
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
-import './all.sass'
+import './all.sass';
 
 const TemplateWrapper = ({ children }) => (
   <StaticQuery
@@ -65,6 +65,6 @@ const TemplateWrapper = ({ children }) => (
       </div>
     )}
   />
-)
+);
 
-export default TemplateWrapper
+export default TemplateWrapper;
